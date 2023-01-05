@@ -1,4 +1,4 @@
-import s from './Sliders.css'
+import s from './Sliders.module.css'
 
 export function Sliders (){
     return (
