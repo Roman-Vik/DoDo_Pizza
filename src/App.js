@@ -1,13 +1,14 @@
+import { Container } from "./components/Container/Container";
+import { Header } from "./components/Header/Header";
+
 function App() {
-    return (
-        <>
-           <h1>Hello React</h1>
-           <h2>blablabla</h2>
-           <p>blalblalblb</p> 
-           	<h1>adadadadad</h1>
-			<h2>dfsdfsfs</h2>
-        </>
-    );
+	return (
+		<>
+			<Container>
+				<Header />
+			</Container>
+		</>
+	);
 }
 
 export default App;
