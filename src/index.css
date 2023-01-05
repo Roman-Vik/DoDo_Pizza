@@ -5,3 +5,17 @@
 	height: auto;
 	max-width: 1280px;
 }
+.container {
+    margin: 0 auto;
+    max-width: 1060px;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    display: block;
+}
+
