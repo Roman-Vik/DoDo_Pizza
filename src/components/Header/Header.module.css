@@ -55,3 +55,7 @@
     height: 44px;
 
 }
+.container {
+	margin: 0 auto;
+	max-width: 1060px;
+}

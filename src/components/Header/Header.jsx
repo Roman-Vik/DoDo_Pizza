@@ -1,18 +1,23 @@
 import s from "./Header.module.css";
+import logo from '../images/logo.svg'
+import dodoPizza from '../images/dodoPizza.svg'
+import tagline from '../images/tagline.svg'
+
 export function Header() {
 	return (
 		<>
+			<div className={s.container}>
 			<div className={s.header}>
 				<div className={s.itemsLogo}>
 					<div className={s.box}>
-						<img className={s.img} src="" alt="dodo" />
+						<img className={s.img} src={logo} alt="logo-dodo" />
 					</div>
 					<div className={s.boxSecond}>
 						<div className={s.logoHeaderBox}>
-							<img className={s.img} src="" alt="dodo" />
+							<img className={s.img} src={dodoPizza} alt="dodoPizza" />
 						</div>
 						<div className={s.logoTagline}>
-							<img className={s.img} src="" alt="dodo" />
+							<img className={s.img} src={tagline} alt="dodo-tagline" />
 						</div>
 					</div>
 				</div>
@@ -20,6 +25,7 @@ export function Header() {
 					<p class={s.tel}>8 800 302-00-60</p>
 					<p class={s.text}>Звонок бесплатный</p>
 				</div>
+			</div>
 			</div>
 		</>
 	);

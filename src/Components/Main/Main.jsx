@@ -6,7 +6,7 @@ export function Main() {
     return (
         <main>
     <section>
-        <div className="container">
+        <div className={s.container}>
             <div className={s.menu}>
                 <Ul></Ul>
                 <Button></Button>
