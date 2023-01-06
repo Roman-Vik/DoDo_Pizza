@@ -12,7 +12,6 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-
 .container {
     margin: 0 auto;
     max-width: 1060px;
