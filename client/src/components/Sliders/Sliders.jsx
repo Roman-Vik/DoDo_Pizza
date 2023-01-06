@@ -1,15 +1,28 @@
-import s from './Sliders.module.css'
-import slide_central from "../../components/images/slider/slide-central.webp";
-import { Container } from "../../components/Container/Container"
+import s from "./Sliders.module.css";
+import { Container } from ".//..//Container/Container";
 
-export function Sliders (){
-    return (
-        <section className={s.sliders}>
-            <Container>
-                <div>
-                   <img src={slide_central} className={s.sliders__main} alt="slide-central.webp"/>
-                </div>
-            </Container>
-        </section>
-    )
+export function Sliders() {
+	return (
+		<div className={s.sliders}>
+			<Container>
+				<div className={s.carusel}>
+					<img
+						src={require("../images/slider/slide-central.webp")}
+						className={s.sliders__main}
+						alt="slide-central.webp"
+					/>
+					<img
+						src={require("../images/slider/slide-central.webp")}
+						className={s.sliders__main}
+						alt="slide-central.webp"
+					/>
+					<img
+						src={require("../images/slider/slide-central.webp")}
+						className={s.sliders__main}
+						alt="slide-central.webp"
+					/>
+				</div>
+			</Container>
+		</div>
+	);
 }
