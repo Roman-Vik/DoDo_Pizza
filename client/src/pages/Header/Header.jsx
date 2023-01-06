@@ -2,11 +2,12 @@ import s from "./Header.module.css";
 import logo from '../../components/images/logo.svg'
 import dodoPizza from '../../components/images/dodoPizza.svg'
 import tagline from '../../components/images/tagline.svg'
+import { Container } from "../../components/Container/Container";
 
 export function Header() {
 	return (
 		<>
-			<div className={s.container}>
+			<Container>
 			<div className={s.header}>
 				<div className={s.itemsLogo}>
 					<div className={s.box}>
@@ -26,7 +27,7 @@ export function Header() {
 					<p className={s.text}>Звонок бесплатный</p>
 				</div>
 			</div>
-			</div>
+			</Container>
 		</>
 	);
 }
