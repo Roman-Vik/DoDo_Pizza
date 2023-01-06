@@ -1,7 +1,7 @@
 import s from "./Header.module.css";
-import logo from '../images/logo.svg'
-import dodoPizza from '../images/dodoPizza.svg'
-import tagline from '../images/tagline.svg'
+import logo from '../../components/images/logo.svg'
+import dodoPizza from '../../components/images/dodoPizza.svg'
+import tagline from '../../components/images/tagline.svg'
 
 export function Header() {
 	return (

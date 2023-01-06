@@ -1,5 +1,5 @@
-import {Main} from "./components/Main/Main";
-import {Header} from "./components/Header/Header";
+import {Main} from "./Ui/Main/Main";
+import {Header} from "./Ui/Header/Header";
 import {Footer} from "./Ui/Footer/Footer";
 
 function App() {
@@ -11,5 +11,4 @@ function App() {
         </>
     );
 }
-
 export default App;

@@ -1,9 +1,9 @@
 import s from "./Main.module.css"
-import { Ul } from "./Ul/Ul"
-import { Button } from "./Button/Button"
-import { Sliders } from "../Sliders/Sliders";
-import { Card } from "../Card/Card";
-import { Pizza } from "../Pizza/Pizza";
+import { Ul } from "../../components/Ul/Ul"
+import { Button } from "../../components/Button/Button"
+import { Sliders } from "../../components/Sliders/Sliders";
+import { Card } from "../../components/Card/Card";
+import { Pizza } from "../../components/Pizza/Pizza";
 
 export function Main() {
     return (
