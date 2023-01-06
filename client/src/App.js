@@ -5,10 +5,11 @@ import {Footer} from "./Ui/Footer/Footer";
 function App() {
     return (
         <>
-                <Header/>
-                <Main/>
+            <Header/>
+            <Main/>
             <Footer/>
         </>
     );
 }
+
 export default App;
