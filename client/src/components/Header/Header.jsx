@@ -22,8 +22,8 @@ export function Header() {
 					</div>
 				</div>
 				<div className={s.itemsCnt}>
-					<p class={s.tel}>8 800 302-00-60</p>
-					<p class={s.text}>Звонок бесплатный</p>
+					<p className={s.tel}>8 800 302-00-60</p>
+					<p className={s.text}>Звонок бесплатный</p>
 				</div>
 			</div>
 			</div>
