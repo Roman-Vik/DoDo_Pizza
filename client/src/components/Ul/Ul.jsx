@@ -1,5 +1,4 @@
 import s from "./Ul.module.css";
-
 export function Ul() {
 	return (
 		<nav>
@@ -33,3 +32,4 @@ export function Ul() {
 		</nav>
 	);
 }
+
