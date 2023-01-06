@@ -3,20 +3,17 @@
     background-color: hsl(216, 10%, 31%);
     padding: 40px 0 46px 0;
 }
-
 .container {
     display: flex;
     margin: 0 auto;
     max-width: 1060px;
 }
-
 .ftr__copyright {
     display: flex;
     color: rgb(199, 200, 203);
     align-items: center;
     gap: 28px;
 }
-
 .ftr__cop {
     font-family: 'Nunito', sans-serif;
     font-style: normal;

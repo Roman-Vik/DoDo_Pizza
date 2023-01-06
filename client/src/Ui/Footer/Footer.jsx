@@ -42,7 +42,6 @@ export function Footer() {
                              srcSet={`${ok} 1x, ${ok_2} 2x`}
                         />
                     </a>
-
                     <a href="" className="ftr__elem">
                         <img alt="fb" src={vk}
                              srcSet={`${vk} 1x, ${vk_2} 2x`}
