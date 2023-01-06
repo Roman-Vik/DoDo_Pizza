@@ -40,7 +40,7 @@
 .tel {
 	width: 144px;
 	height: 25px;
-	font-family: "Nunito";
+	font-family: "Nunito",sans-serif;
 	font-style: normal;
 	font-weight: 600;
 	font-size: 18px;
@@ -54,4 +54,8 @@
     flex-direction: column;
     height: 44px;
 
+}
+.container {
+	margin: 0 auto;
+	max-width: 1060px;
 }

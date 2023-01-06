@@ -1,9 +1,23 @@
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	height: auto;
-	max-width: 1280px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    height: auto;
+    max-width: 1280px;
+}
+body{
+    border: orange dotted 2px;
+}
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
 }
 .container {
     margin: 0 auto;
