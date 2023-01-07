@@ -1,12 +1,12 @@
 * {
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     height: auto;
-    max-width: 1280px;
 }
 body{
     border: orange dotted 2px;
+    max-width: 1280px;
 }
 li {
     list-style-type: none;

@@ -1,11 +1,12 @@
 import s from "./Card.module.css"
+import imgPizza from "../images/items/pizza/pizza-1-2x.webp"
 
 export function Card() {
     return (
             <div className={s.cards}>
                     <div className={s.cards__item}>
                         <div className={s.cards__wrapper}>
-                            <img className={s.cards__img} src={require("../images/items/pizza/pizza-1-2x.webp")} alt="Pizza"/>
+                            <img className={s.cards__img} src={imgPizza} alt="Pizza"/>
                         </div>
                         <div className={s.cards__description}>
                             <h3 className={s.cards__title}>Пицца из половинок</h3>

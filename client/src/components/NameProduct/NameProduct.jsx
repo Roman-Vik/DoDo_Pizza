@@ -1,6 +1,6 @@
-import s from "./Pizza.module.css"
+import s from "./NameProduct.module.css"
 
-export function Pizza() {
+export function NameProduct() {
     return (
         <h2 className={s.cards__headerline}>Пицца</h2>
     )
