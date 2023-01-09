@@ -1,24 +1,30 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    height: auto;
-    max-width: 1280px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	max-width: 1280px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	letter-spacing: 0px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	scroll-behavior: smooth;
 }
-body{
-    border: orange dotted 2px;
+body {
+	border: orange dotted 2px;
+	margin: 2rem;
 }
 li {
-    list-style-type: none;
+	list-style-type: none;
 }
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 img {
-    display: block;
+	display: block;
 }
 .container {
-    margin: 0 auto;
-    max-width: 1060px;
+	margin: 0 auto;
+	max-width: 1060px;
 }
-
