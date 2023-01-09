@@ -13,6 +13,5 @@ function App() {
             <Card_2/>
         </>
     );
-
 }
 export default App;
