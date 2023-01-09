@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9bf5f8cd-d6c5-4bab-803c-530cfd75d753" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/client/src/Ui/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Ui/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +35,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="artem" />
-                    <option name="lastUsedInstant" value="1673279768" />
+                    <option name="lastUsedInstant" value="1673282329" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1673279304" />
+                    <option name="lastUsedInstant" value="1673282152" />
                   </RecentBranch>
                 </list>
               </option>
