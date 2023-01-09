@@ -1,6 +1,6 @@
-import s from "./Main.module.css"
-import { Ul } from "../../components/Ul/Ul"
-import { Button } from "../../components/Button/Button"
+import s from "./Main.module.css";
+import { Ul } from "../../components/Ul/Ul";
+import { Button } from "../../components/Button/Button";
 import { Sliders } from "../../components/Sliders/Sliders";
 import { Card } from "../../components/Card/Card";
 import { NameProduct } from "../../components/NameProduct/NameProduct";
