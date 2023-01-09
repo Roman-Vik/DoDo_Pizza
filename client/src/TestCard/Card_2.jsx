@@ -12,7 +12,6 @@ export function Card_2 (){
                         <div className={s.round}>2</div>
                         <div className={s.round}>3</div>
                     </div>
-
                 </Container>
             </header>
             <main>
