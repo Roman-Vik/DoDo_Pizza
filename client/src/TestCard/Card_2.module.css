@@ -1,11 +1,19 @@
-.wrapper{
-display: flex;
-
+.container{
+    display: flex;
+    border: seagreen solid 2px;
+    justify-content: space-between;
+    padding-right: 90px;
 }
-.status{
+.status {
     border: seagreen 1px solid;
     display: flex;
 }
+.wrapper_round {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
 .round {
     width: 32px;
     height: 32px;
@@ -15,4 +23,33 @@ display: flex;
     align-items: center;
     background: #FFFFFF;
     border: 1px solid #424242;
+}
+.x{
+    display: flex;
+}
+.line {
+    width: 114px;
+    border-top: 1px dashed #000; /* Параметры линии  */
+}
+
+.headerLine{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+    margin: 70px 0 30px 0;
+}
+
+
+
+
+.massProduct{
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #73798C;
 }
