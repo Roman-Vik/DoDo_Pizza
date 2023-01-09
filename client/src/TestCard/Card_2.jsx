@@ -25,16 +25,26 @@ export function Card_2() {
                     <h2 className={s.headerLine}>Заказ на доставку</h2>
 
                     <div>
-                        <div className="aside"></div>
-                        <ul className={s.heading}>Состав заказа
-                            <li >
-                                <div className={s.food} >
-                                    <p className={s.title}>colla</p>
-                                    <p className={s.price}>3 × 75 ₽</p>
-                                </div>
-                                <span className={s.massProduct}>0,5 л</span>
-                            </li>
-                        </ul>
+                        <div className={s.aside}>
+                            <ul className={s.heading}>Состав заказа
+                                <li>
+                                    <div className={s.food}>
+                                        <p className={s.title}>Coca-Cola</p>
+                                        <p className={s.price}>3 × 75 ₽</p>
+                                    </div>
+                                    <span className={s.massProduct}>0,5 л</span>
+                                </li>
+                                <li>
+                                    <div className={s.food}>
+                                        <p className={s.title}>Рулетики с ананасами + <br/>Рулетики с брусникой, 16 шт
+                                        </p>
+                                        <p className={s.price}>195 ₽</p>
+                                    </div>
+                                    <span className={s.massProduct}>16 шт</span>
+                                </li>
+                            </ul>
+                        </div>
+
                     </div>
                 </main>
                 <Footer/>

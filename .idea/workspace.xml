@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9bf5f8cd-d6c5-4bab-803c-530cfd75d753" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/TestCard/Card_2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/TestCard/Card_2.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/TestCard/Card_2.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/TestCard/Card_2.module.css" afterDir="false" />
     </list>
@@ -13,6 +12,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
@@ -25,7 +29,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="work" />
-                    <option name="lastUsedInstant" value="1673262642" />
+                    <option name="lastUsedInstant" value="1673276934" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="work2" />
