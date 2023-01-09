@@ -14,14 +14,13 @@ import { Container } from '../../components/Container/Container'
 
 export function Footer() {
     return (
-        <footer>
+        <footer style={{background: "#474D57"}}>
+            <Container>
             <div className={s.ftr}>
-                <Container>
                     <div className={s.ftr__copyright}>
                         <img className="ftr__img" src={letterLogoGray} alt="letterLogoGray"/>
                         <small className={s.ftr__cop}>&copy; 2011</small>
                     </div>
-                </Container>
                 <div className={s.ftr__links}>
                     <a href="/" className={s.ftr__item}>Правовая информация</a>
                     <a href="/" className={s.ftr__item}>Калорийность и состав</a>
@@ -43,7 +42,6 @@ export function Footer() {
                              srcSet={`${ok} 1x, ${ok_2} 2x`}
                         />
                     </a>
-
                     <a href="/" className="ftr__elem">
                         <img alt="fb" src={vk}
                              srcSet={`${vk} 1x, ${vk_2} 2x`}
@@ -56,6 +54,7 @@ export function Footer() {
                     </a>
                 </div>
             </div>
+                </Container>
         </footer>
     )
 }
