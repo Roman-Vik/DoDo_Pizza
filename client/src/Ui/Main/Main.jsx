@@ -18,7 +18,7 @@ export function Main() {
         </Container>
     </section>
     <section className={s.range}>
-        <div className={s.container}>
+        <Container>
             <Sliders/>
             <NameProduct></NameProduct>
          <div className={s.cards__items}>
@@ -28,7 +28,7 @@ export function Main() {
             <Card></Card>
             <Card></Card>
          </div>
-        </div>
+         </Container>
     </section>
         </main>
     )
