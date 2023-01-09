@@ -4,14 +4,12 @@
     padding: 40px 0 46px 0;
 }
 
-
 .ftr__copyright {
     display: flex;
     color: rgb(199, 200, 203);
     align-items: center;
     gap: 28px;
 }
-
 .ftr__cop {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
