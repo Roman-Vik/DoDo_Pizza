@@ -5,7 +5,6 @@ import { Sliders } from "../../components/Sliders/Sliders";
 import { Card } from "../../components/Card/Card";
 import { NameProduct } from "../../components/NameProduct/NameProduct";
 import { Container } from "../../components/Container/Container";
-import {New} from "../../components/New/New";
 
 export function Main() {
     return (
@@ -19,9 +18,8 @@ export function Main() {
         </Container>
     </section>
     <section className={s.range}>
-        <div className={s.container}>
+        <Container>
             <Sliders/>
-            <New/>
             <NameProduct></NameProduct>
          <div className={s.cards__items}>
             <Card></Card>
@@ -30,7 +28,7 @@ export function Main() {
             <Card></Card>
             <Card></Card>
          </div>
-        </div>
+         </Container>
     </section>
         </main>
     )
