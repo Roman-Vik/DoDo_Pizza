@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d6e12f91-752d-4729-9fba-243c2a9564c9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Ui/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ui/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ui/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ui/Main/Main.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/.." source="main" />
+                <branch-info repo="$PROJECT_DIR$/.." source="work" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JwxM8MxDhoBTiqDetyPmXfLR9o" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/BootCamp/DoDo_Pizza/client/src/Ui/Header&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BootCamp\DoDo_Pizza\client\src\Ui\Header" />
+      <recent name="D:\BootCamp\DoDo_Pizza\client\src\Ui" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\BootCamp\DoDo_Pizza\client\src\components" />
+      <recent name="D:\BootCamp\DoDo_Pizza\client\src\Ui\Main" />
+      <recent name="D:\BootCamp\DoDo_Pizza\client\src\Ui" />
+      <recent name="D:\BootCamp\DoDo_Pizza\client\src\pages" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6e12f91-752d-4729-9fba-243c2a9564c9" name="Changes" comment="" />
+      <created>1673002898551</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673002898551</updated>
+      <workItem from="1673002902704" duration="16433000" />
+      <workItem from="1673022441020" duration="597000" />
+      <workItem from="1673023060818" duration="359000" />
+      <workItem from="1673023766423" duration="943000" />
+      <workItem from="1673030787670" duration="3063000" />
+      <workItem from="1673074837536" duration="1936000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

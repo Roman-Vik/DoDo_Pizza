@@ -1,0 +1,26 @@
+Index: src/Ui/Main/Main.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import s from \"./Main.module.css\"\nimport { Ul } from \"../../components/Ul/Ul\"\nimport { Button } from \"../../components/Button/Button\"\nimport { Sliders } from \"../../components/Sliders/Sliders\";\nimport { Card } from \"../../components/Card/Card\";\nimport { NameProduct } from \"../../components/NameProduct/NameProduct\";\nimport { Container } from \"../../components/Container/Container\";\n\nexport function Main() {\n    return (\n        <main>\n    <section>\n        <Container>\n            <div className={s.menu}>\n                <Ul></Ul>\n                <Button></Button>\n            </div>\n        </Container>\n    </section>\n    <section className={s.range}>\n        <div className={s.container}>\n            <Sliders/>\n            <NameProduct></NameProduct>\n         <div className={s.cards__items}>\n            <Card></Card>\n            <Card></Card>\n            <Card></Card>\n            <Card></Card>\n            <Card></Card>\n         </div>\n        </div>\n    </section>\n        </main>\n    )\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Ui/Main/Main.jsx b/src/Ui/Main/Main.jsx
+--- a/src/Ui/Main/Main.jsx	(revision 8b2580e39cf21e2fd73626b8d46f9bfac69c11d9)
++++ b/src/Ui/Main/Main.jsx	(date 1673022910806)
+@@ -5,6 +5,7 @@
+ import { Card } from "../../components/Card/Card";
+ import { NameProduct } from "../../components/NameProduct/NameProduct";
+ import { Container } from "../../components/Container/Container";
++import {New} from "../../components/New/New";
+ 
+ export function Main() {
+     return (
+@@ -20,6 +21,7 @@
+     <section className={s.range}>
+         <div className={s.container}>
+             <Sliders/>
++            <New/>
+             <NameProduct></NameProduct>
+          <div className={s.cards__items}>
+             <Card></Card>

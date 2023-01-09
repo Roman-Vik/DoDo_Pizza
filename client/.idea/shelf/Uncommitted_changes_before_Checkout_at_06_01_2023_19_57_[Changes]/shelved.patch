@@ -1,0 +1,104 @@
+Index: src/pages/Header/Header.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import s from \"./Header.module.css\";\nimport logo from '../../components/images/logo.svg'\nimport dodoPizza from '../../components/images/dodoPizza.svg'\nimport tagline from '../../components/images/tagline.svg'\n\nexport function Header() {\n\treturn (\n\t\t<>\n\t\t\t<div className={s.container}>\n\t\t\t<div className={s.header}>\n\t\t\t\t<div className={s.itemsLogo}>\n\t\t\t\t\t<div className={s.box}>\n\t\t\t\t\t\t<img className={s.img} src={logo} alt=\"logo-dodo\" />\n\t\t\t\t\t</div>\n\t\t\t\t\t<div className={s.boxSecond}>\n\t\t\t\t\t\t<div className={s.logoHeaderBox}>\n\t\t\t\t\t\t\t<img className={s.img} src={dodoPizza} alt=\"dodoPizza\" />\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div className={s.logoTagline}>\n\t\t\t\t\t\t\t<img className={s.img} src={tagline} alt=\"dodo-tagline\" />\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div className={s.itemsCnt}>\n\t\t\t\t\t<p className={s.tel}>8 800 302-00-60</p>\n\t\t\t\t\t<p className={s.text}>Звонок бесплатный</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t</div>\n\t\t</>\n\t);\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/pages/Header/Header.jsx b/src/pages/Header/Header.jsx
+--- a/src/pages/Header/Header.jsx	(revision 22bef8c4a48a6394ebce66b9d38edaf57e66ec02)
++++ b/src/pages/Header/Header.jsx	(date 1673024208169)
+@@ -1,4 +1,4 @@
+-import s from "./Header.module.css";
++import s from "./Header.module.css"
+ import logo from '../../components/images/logo.svg'
+ import dodoPizza from '../../components/images/dodoPizza.svg'
+ import tagline from '../../components/images/tagline.svg'
+Index: src/Ui/Header/Header.module.css
+===================================================================
+diff --git a/src/Ui/Header/Header.module.css b/src/Ui/Header/Header.module.css
+deleted file mode 100644
+--- a/src/Ui/Header/Header.module.css	(revision 22bef8c4a48a6394ebce66b9d38edaf57e66ec02)
++++ /dev/null	(revision 22bef8c4a48a6394ebce66b9d38edaf57e66ec02)
+@@ -1,61 +0,0 @@
+-.header {
+-	display: flex;
+-	justify-content: space-between;
+-	padding: 28px 0 0 0;
+-}
+-.itemsLogo {
+-	display: flex;
+-}
+-.img {
+-	display: block;
+-	width: 100%;
+-	height: 100%;
+-}
+-.box {
+-	width: 44px;
+-	height: 44px;
+-}
+-.logoHeaderBox {
+-	width: 192px;
+-	height: 22px;
+-}
+-.logoTagline {
+-	width: 162px;
+-	height: 12px;
+-	font-family: "Nunito";
+-	font-style: normal;
+-	font-weight: 400;
+-	font-size: 12px;
+-	line-height: 16px;
+-	color: #343434;
+-}
+-.text {
+-	font-family: "Nunito";
+-	font-style: normal;
+-	font-weight: 400;
+-	font-size: 15px;
+-	line-height: 20px;
+-	color: #999999;
+-}
+-.tel {
+-	width: 144px;
+-	height: 25px;
+-	font-family: "Nunito",sans-serif;
+-	font-style: normal;
+-	font-weight: 600;
+-	font-size: 18px;
+-	line-height: 25px;
+-	color: #000000;
+-}
+-.boxSecond {
+-	margin: 0 0 0 14px;
+-    display: flex;
+-    justify-content: space-between;
+-    flex-direction: column;
+-    height: 44px;
+-
+-}
+-.container {
+-	margin: 0 auto;
+-	max-width: 1060px;
+-}
+\ No newline at end of file
+Index: src/pages/Header/Header.module.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.header {\n\tdisplay: flex;\n\tjustify-content: space-between;\n\tpadding: 28px 0 0 0;\n}\n.itemsLogo {\n\tdisplay: flex;\n}\n.img {\n\tdisplay: block;\n\twidth: 100%;\n\theight: 100%;\n}\n.box {\n\twidth: 44px;\n\theight: 44px;\n}\n.logoHeaderBox {\n\twidth: 192px;\n\theight: 22px;\n}\n.logoTagline {\n\twidth: 162px;\n\theight: 12px;\n\tfont-family: \"Nunito\";\n\tfont-style: normal;\n\tfont-weight: 400;\n\tfont-size: 12px;\n\tline-height: 16px;\n\tcolor: #343434;\n}\n.text {\n\tfont-family: \"Nunito\";\n\tfont-style: normal;\n\tfont-weight: 400;\n\tfont-size: 15px;\n\tline-height: 20px;\n\tcolor: #999999;\n}\n.tel {\n\twidth: 144px;\n\theight: 25px;\n\tfont-family: \"Nunito\",sans-serif;\n\tfont-style: normal;\n\tfont-weight: 600;\n\tfont-size: 18px;\n\tline-height: 25px;\n\tcolor: #000000;\n}\n.boxSecond {\n\tmargin: 0 0 0 14px;\n    display: flex;\n    justify-content: space-between;\n    flex-direction: column;\n    height: 44px;\n\n}\n.container {\n\tmargin: 0 auto;\n\tmax-width: 1060px;\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/pages/Header/Header.module.css b/src/pages/Header/Header.module.css
+--- a/src/pages/Header/Header.module.css	(revision 22bef8c4a48a6394ebce66b9d38edaf57e66ec02)
++++ b/src/pages/Header/Header.module.css	(date 1673024153573)
+@@ -22,7 +22,7 @@
+ .logoTagline {
+ 	width: 162px;
+ 	height: 12px;
+-	font-family: "Nunito";
++	font-family: "Nunito", sans-serif;
+ 	font-style: normal;
+ 	font-weight: 400;
+ 	font-size: 12px;

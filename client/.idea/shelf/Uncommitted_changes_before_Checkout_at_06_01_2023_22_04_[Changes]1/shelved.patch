@@ -1,0 +1,45 @@
+Index: src/Ui/Footer/Footer.module.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.ftr {\r\n    display: flex;\r\n    background-color: hsl(216, 10%, 31%);\r\n    padding: 40px 0 46px 0;\r\n}\r\n\r\n\r\n.ftr__copyright {\r\n    display: flex;\r\n    color: rgb(199, 200, 203);\r\n    align-items: center;\r\n    gap: 28px;\r\n}\r\n\r\n.ftr__cop {\r\n    font-family: 'Nunito', sans-serif;\r\n    font-style: normal;\r\n    font-weight: 400;\r\n    font-size: 16px;\r\n    line-height: 22px;\r\n    color: #FFFFFF;\r\n    opacity: 0.7;\r\n}\r\n\r\n.ftr__links {\r\n    display: flex;\r\n    gap: 20px;\r\n    margin: 0 90px 0 59px;\r\n    align-items: center;\r\n}\r\n\r\n.ftr__item {\r\n    font-family: 'Nunito', sans-serif;\r\n    font-style: normal;\r\n    font-weight: 400;\r\n    font-size: 16px;\r\n    line-height: 22px;\r\n    color: #FFFFFF;\r\n    opacity: 0.7;\r\n}\r\n\r\n\r\n.ftr__socialNet {\r\n    display: flex;\r\n    gap: 6px;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Ui/Footer/Footer.module.css b/src/Ui/Footer/Footer.module.css
+--- a/src/Ui/Footer/Footer.module.css	(revision 8b2580e39cf21e2fd73626b8d46f9bfac69c11d9)
++++ b/src/Ui/Footer/Footer.module.css	(date 1673031841341)
+@@ -38,8 +38,6 @@
+     color: #FFFFFF;
+     opacity: 0.7;
+ }
+-
+-
+ .ftr__socialNet {
+     display: flex;
+     gap: 6px;
+Index: src/Ui/Main/Main.jsx
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import s from \"./Main.module.css\"\nimport { Ul } from \"../../components/Ul/Ul\"\nimport { Button } from \"../../components/Button/Button\"\nimport { Sliders } from \"../../components/Sliders/Sliders\";\nimport { Card } from \"../../components/Card/Card\";\nimport { NameProduct } from \"../../components/NameProduct/NameProduct\";\nimport { Container } from \"../../components/Container/Container\";\n\nexport function Main() {\n    return (\n        <main>\n    <section>\n        <Container>\n            <div className={s.menu}>\n                <Ul></Ul>\n                <Button></Button>\n            </div>\n        </Container>\n    </section>\n    <section className={s.range}>\n        <div className={s.container}>\n            <Sliders/>\n            <NameProduct></NameProduct>\n         <div className={s.cards__items}>\n            <Card></Card>\n            <Card></Card>\n            <Card></Card>\n            <Card></Card>\n            <Card></Card>\n         </div>\n        </div>\n    </section>\n        </main>\n    )\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Ui/Main/Main.jsx b/src/Ui/Main/Main.jsx
+--- a/src/Ui/Main/Main.jsx	(revision 8b2580e39cf21e2fd73626b8d46f9bfac69c11d9)
++++ b/src/Ui/Main/Main.jsx	(date 1673031841357)
+@@ -5,6 +5,7 @@
+ import { Card } from "../../components/Card/Card";
+ import { NameProduct } from "../../components/NameProduct/NameProduct";
+ import { Container } from "../../components/Container/Container";
++import {New} from "../../components/New/New";
+ 
+ export function Main() {
+     return (
+@@ -20,6 +21,7 @@
+     <section className={s.range}>
+         <div className={s.container}>
+             <Sliders/>
++            <New/>
+             <NameProduct></NameProduct>
+          <div className={s.cards__items}>
+             <Card></Card>
