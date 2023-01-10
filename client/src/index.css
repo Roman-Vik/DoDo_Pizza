@@ -1,21 +1,20 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    height: auto;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	max-width: 1280px;
 }
-body{
-    border: orange dotted 2px;
-    max-width: 1280px;
+body {
+	border: orange dotted 2px;
+	margin: 2rem;
 }
 li {
-    list-style-type: none;
+	list-style-type: none;
 }
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 img {
-    display: block;
+	display: block;
 }
-
-

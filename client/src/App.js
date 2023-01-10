@@ -1,3 +1,4 @@
+
 import { New } from "./components/New/New";
 import {Main} from "./Ui/Main/Main";
 import {Footer} from "./Ui/Footer/Footer";
@@ -13,5 +14,6 @@ function App() {
             <Card_2/>
         </>
     );
+
 }
 export default App;

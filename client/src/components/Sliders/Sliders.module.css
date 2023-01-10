@@ -1,21 +1,12 @@
-.sliders {
-	padding: 0 0 70px 0;
-}
-.sliders__main {
-	display: block;
-	width: 100%;
-	height: auto;
-	border-radius: 20px;
-	box-shadow: 50px 55px 206px rgba(115, 121, 140, 0.2);
+
+.card {
+	border-radius: 30px;
+	max-height: 300px;
+	width: 1060px;
+	display: flex;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: space-between;
 }
 
-.carusel {
-	display: grid;
-	grid-auto-flow: column;
-	scroll-behavior: auto;
-	gap: 1.2rem;
-	/* overflow-y: auto; */
-	overscroll-behavior-x: contain;
-	scroll-snap-type: x mandatory;
-	scrollbar-width: none;
-}
+
